@@ -15,4 +15,11 @@ name: Loop With Turtle
 
 ... # Your code here
 import turtle
-tino
+tino = turtle.Turtle()
+
+tino.penup()
+tino.pencolor('blue')
+
+for i in range(4)
+
+tina.forward
