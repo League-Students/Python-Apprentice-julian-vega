@@ -20,8 +20,7 @@ tino = turtle.Turtle()
 tino.penup()
 tino.pencolor('blue')
 
-for i in range(4)
-
-tino.forward(150)
-tino.left(90)
+for i in range(5):
+    tino.forward(150)
+    tino.left(72)
 
