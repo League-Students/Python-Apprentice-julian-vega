@@ -15,7 +15,7 @@ turtle.setup(600, 600, 0, 0)            # Set the size of the window
 tina = turtle.Turtle()                  # Create a turtle named tina
 
 tina.shape('turtle')                    # Set the shape of the turtle to a turtle
-tina.speed(0.1)                           # Move at a moderate speed, not too fast.
+tina.speed(2)                           # Move at a moderate speed, not too fast.
 
 ##
 ## Move Tina to the Starting Position
@@ -31,7 +31,7 @@ tina.pendown()                          # Put the pen down so we can draw
 ##
 
 tina.pencolor('blue')                   # Set the pen color to blue
-tina.forward(200)                       # Move tina forward by the forward distance
+tina.forward(20)                       # Move tina forward by the forward distance
 tina.right(90)                          # Turn tina right by 90 degrees
 
 tina.pencolor('red')                    # Set the pen color to red
