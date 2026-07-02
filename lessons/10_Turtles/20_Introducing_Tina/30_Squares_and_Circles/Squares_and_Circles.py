@@ -65,7 +65,7 @@ tina.end_fill()
 
 tina.penup()                            # Lift the pen up so we can move tina without drawing
 tina.goto(-30, -130)                    # Move to where the text should appear
-tina.write("Why, hello there!")         # Write the message "Why, hello there!"
+tina.write("Why, #### ###!")         # Write the message "Why, hello there!"
 
 turtle.exitonclick()                    # Close the window when we click on it
 
