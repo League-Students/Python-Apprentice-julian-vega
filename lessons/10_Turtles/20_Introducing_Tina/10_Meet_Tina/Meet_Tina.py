@@ -13,7 +13,7 @@ You don't need to understand all of this yet. Later lessons will walk through it
 import turtle                           # Tell Python we want to work with the turtle
 from math import radians, tan
 
-turtle.setup(600, 600, 0, 0)            # Set the size of the window
+turtle.setup(60, 600, 0, 0)            # Set the size of the window
 
 tina = turtle.Turtle()                  # Create a turtle named tina
 
@@ -25,7 +25,7 @@ tina.goto(-100, 175)                    # Move tina to the starting position
 tina.pendown()
 tina.begin_fill()
 
-def head_pos(l=200):
+def head_pos(l=20):
     """ Position of tina's head, relative to the center of the screen"""
     return (l/2) / tan(radians(30))
 
