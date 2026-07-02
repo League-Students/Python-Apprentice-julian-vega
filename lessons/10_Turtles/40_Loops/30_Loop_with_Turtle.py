@@ -22,4 +22,5 @@ tino.pencolor('blue')
 
 for i in range(4)
 
-tina.forward
+tino.forward(150)
+tino.left(90)
