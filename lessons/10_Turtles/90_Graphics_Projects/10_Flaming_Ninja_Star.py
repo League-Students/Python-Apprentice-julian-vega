@@ -27,19 +27,19 @@ turtle.setup(600, 600, 0, 0)            # Set the size of the window
 window = turtle.Screen()
 
 base_size = 200  # the size of the black part of the star
-flame_size = 130  # the length of the flaming arms
+flame_size = 180  # the length of the flaming arms
 
 t = turtle.Turtle()
 t.shape("turtle")
 t.width(2)
 t.speed(0)
 
-for i in range(25):
+for i in range(50):
     t.pencolor(get_random_color())
     t.fillcolor(get_random_color())
     t.begin_fill()
     t.forward(64)
-    t.left(40)
+    t.left(20)
     t.forward(flame_size)
     t.right(170)
     t.forward(flame_size)
