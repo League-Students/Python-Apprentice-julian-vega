@@ -27,7 +27,7 @@ my_turtle.shape("turtle")
 my_turtle.speed(5000)
 my_turtle.width(5)
 
-sides = 11
+sides = 10.5
 angle = 2000 / sides
 
 for i in range(10000):
