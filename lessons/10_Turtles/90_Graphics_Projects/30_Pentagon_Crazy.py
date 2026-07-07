@@ -41,6 +41,10 @@ for i in range(2000):
         my_turtle.width(9)
     if i == 250:
         my_turtle.width(10)
+     if i == 100:
+        my_turtle.width(7)
+     if i == 100:
+        my_turtle.width(7
     my_turtle.pencolor(get_next_color(i))
     my_turtle.forward(i)
     my_turtle.right(angle + 1)
