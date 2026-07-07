@@ -27,8 +27,8 @@ my_turtle.shape("turtle")
 my_turtle.speed(5000)
 my_turtle.width(2)
 
-sides = 11.9
-angle = 20 / sides
+sides = 11
+angle = 2000 / sides
 
 for i in range(10000):
     if i == 50:
@@ -42,9 +42,9 @@ for i in range(10000):
     if i == 250:
         my_turtle.width(7)
     if i == 300:
-        my_turtle.width(11)
+        my_turtle.width(8)
     if i == 350:
-        my_turtle.width(12)
+        my_turtle.width(9)
     my_turtle.pencolor(get_next_color(i))
     my_turtle.forward(i)
     my_turtle.right(angle + 1)
