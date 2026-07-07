@@ -31,10 +31,16 @@ sides = 2
 angle = 2000 / sides
 
 for i in range(2000):
-    if i == 100:
+    if i == 50:
         my_turtle.width(6)
-    if i == 200:
+    if i == 100:
         my_turtle.width(7)
+    if i == 150:
+        my_turtle.width(8)
+    if i == 200:
+        my_turtle.width(9)
+    if i == 250:
+        my_turtle.width(10)
     my_turtle.pencolor(get_next_color(i))
     my_turtle.forward(i)
     my_turtle.right(angle + 1)
