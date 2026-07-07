@@ -36,11 +36,11 @@ for i in range(10000):
     if i == 100:
         my_turtle.width(4)
     if i == 150:
-        my_turtle.width(8)
+        my_turtle.width(5)
     if i == 200:
-        my_turtle.width(9)
+        my_turtle.width(6)
     if i == 250:
-        my_turtle.width(10)
+        my_turtle.width(7)
     if i == 300:
         my_turtle.width(11)
     if i == 350:
