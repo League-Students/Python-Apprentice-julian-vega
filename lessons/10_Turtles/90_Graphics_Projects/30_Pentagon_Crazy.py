@@ -10,12 +10,12 @@ name: Pentagon Crazy
 import random
 import turtle
 
-colors = ("white", "red")
+colors = ("red", "black")
 
 def get_random_color():
     return "#%06X" % (random.randint(0, 0xFFFFFF))
 
-def get_next_color(i):
+def get_random_color(i):
     return colors[i % len(colors)]
 
 window = turtle.Screen()
@@ -24,10 +24,10 @@ window.setup(width=600, height=600, startx=0, starty=0)
 
 my_turtle = turtle.Turtle()
 my_turtle.shape("turtle")
-my_turtle.speed(100)
+my_turtle.speed(500)
 my_turtle.width(10)
 
-sides = -6
+sides = -4
 angle = 360 / sides
 
 for i in range(1000):
