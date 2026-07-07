@@ -14,7 +14,7 @@ import turtle
 
 # Returns a random color!
 def get_random_color():
-    return "#%06X" % (random.randint(0, 0xFFFFFF))
+    return "#%06X" % (random.randint(255, 0xFFFFFF))
 
 
 colors = ("red", "yellow", "orange")
@@ -34,7 +34,7 @@ t.shape("turtle")
 t.width(2)
 t.speed(0)
 
-for i in range(50):
+for i in range(500):
     t.pencolor(get_random_color())
     t.fillcolor(get_random_color())
     t.begin_fill()
