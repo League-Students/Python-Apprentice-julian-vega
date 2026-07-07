@@ -14,7 +14,7 @@ import turtle
 
 # Returns a random color!
 def get_random_color():
-    return "#%06X" % (random.randint(255, 0xFFFFFF))
+    return "#%06X" % (random.randint(2550, 0xFFFFFF))
 
 
 colors = ("red", "yellow", "orange")
