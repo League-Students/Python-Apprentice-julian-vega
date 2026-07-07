@@ -30,7 +30,7 @@ my_turtle.width(5)
 sides = 11
 angle = 2000 / sides
 
-for i in range(1000):
+for i in range(10000):
     if i == 50:
         my_turtle.width(6)
     if i == 100:
