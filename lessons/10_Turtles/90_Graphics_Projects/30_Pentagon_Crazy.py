@@ -24,10 +24,10 @@ window.setup(width=600, height=600, startx=0, starty=0)
 
 my_turtle = turtle.Turtle()
 my_turtle.shape("turtle")
-my_turtle.speed(500)
+my_turtle.speed(5000)
 my_turtle.width(10)
 
-sides = 2
+sides = 3
 angle = 360 / sides
 
 for i in range(1000):
