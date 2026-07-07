@@ -15,7 +15,7 @@ colors = ("red", "black")
 def get_random_color():
     return "#%06X" % (random.randint(0, 0xFFFFFF))
 
-def get_random_color(i):
+def get_next_color(i):
     return colors[i % len(colors)]
 
 window = turtle.Screen()
@@ -27,7 +27,7 @@ my_turtle.shape("turtle")
 my_turtle.speed(500)
 my_turtle.width(10)
 
-sides = -4
+sides = 2
 angle = 360 / sides
 
 for i in range(1000):
