@@ -29,9 +29,9 @@ set_turtle_image(t, "pikachu.gif")
 
 t.penup()   # Prevent drawing when moving
 t.speed(1)  # Set a moderate speed
-t.colot('blue')
+
 # Move the turtle to each corner of the screen in a square pattern
-for x, y in [(200, 200), (200, -200), (-200, -200), (-200, 200)]:
+for x, y in [(20, 200), (200, -20), (-20, -200), (-200, 20)]:
     t.goto(x, y)
 
 turtle.exitonclick() 
