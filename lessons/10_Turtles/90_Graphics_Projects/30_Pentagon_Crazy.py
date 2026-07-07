@@ -28,7 +28,7 @@ my_turtle.speed(5000)
 my_turtle.width(5)
 
 sides = 2
-angle = 1492 / sides
+angle = 2000 / sides
 
 for i in range(2000):
     if i == 100:
