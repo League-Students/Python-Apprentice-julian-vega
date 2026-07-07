@@ -24,7 +24,7 @@ window.setup(width=600, height=600, startx=0, starty=0)
 
 my_turtle = turtle.Turtle()
 my_turtle.shape("turtle")
-my_turtle.speed(10)
+my_turtle.speed(100)
 my_turtle.width(10)
 
 sides = -6
