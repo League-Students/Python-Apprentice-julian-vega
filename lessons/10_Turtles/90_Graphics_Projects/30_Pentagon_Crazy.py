@@ -19,7 +19,7 @@ def get_next_color(i):
     return colors[i % len(colors)]
 
 window = turtle.Screen()
-window.bgcolor("black")
+window.bgcolor("white")
 window.setup(width=600, height=600, startx=0, starty=0)
 
 my_turtle = turtle.Turtle()
