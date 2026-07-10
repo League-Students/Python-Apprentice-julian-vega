@@ -21,7 +21,7 @@ def show_animatronics(cam_num):
 def open_cam_1():
   print("cam 1 open")
   screen.bgcolor(cam_colors[0])
-  show_animatronics()
+  show_animatronics(1)
 def open_cam_2():
   print("cam 2 open")
   screen.bgcolor(cam_colors[1]) 
