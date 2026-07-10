@@ -13,7 +13,7 @@ cam_colors = ["white", "blue", "red", "black", "green"]
 def move_tina():
     global tina_progress
     tina_progress +=1
-    
+
     screen.ontimer(move_tina, 2000)
     print("TINA MOVED")
 
@@ -31,15 +31,15 @@ def open_cam_1():
 def open_cam_2():
   print("cam 2 open")
   screen.bgcolor(cam_colors[1]) 
-  show_animatronics()
+  show_animatronics(2)
 def open_cam_3():
   print("cam 3 open")
   screen.bgcolor(cam_colors[2])
-  show_animatronics() 
+  show_animatronics(3) 
 def open_cam_4():
   print("cam 4 open")
   screen.bgcolor(cam_colors[3])
-  show_animatronics() 
+  show_animatronics(4) 
 def open_cam_5():
   print("cam 5 open")
   screen.bgcolor(cam_colors[4])
