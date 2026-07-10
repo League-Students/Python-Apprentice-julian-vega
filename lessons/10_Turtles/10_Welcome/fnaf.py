@@ -1,6 +1,8 @@
 import turtle
 
 tina = turtle.Turtle()
+tina.shape("turtle")
+
   
 screen = turtle.Screen()
 screen.setup(500,500)
@@ -24,7 +26,7 @@ def open_cam_5():
   screen.bgcolor(cam_colors[4]) 
 def exit_cam():
   print("cam exited")
-  screen.bgcolor()
+  screen.bgcolor("yellow")
   
 screen.listen()
 screen.onkey(open_cam_1, "1")
