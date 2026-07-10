@@ -13,7 +13,9 @@ cam_colors = ["white", "blue", "red", "black", "green"]
 def show_animatronics(cam_num):
     #tina show
   if(cam_num==tina_path[tina_progress]):
-
+    tina.showturtle()
+  else:
+    tina.hideturtle()
   
 def open_cam_1():
   print("cam 1 open")
