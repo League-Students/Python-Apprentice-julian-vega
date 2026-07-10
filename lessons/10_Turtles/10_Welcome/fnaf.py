@@ -10,8 +10,8 @@ screen.setup(500,500)
 cam_colors = ["white", "blue", "red", "black", "green"]
 
 def show_animatronics(cam_num):
-    
-  if()
+    #tina show
+  if(cam_num==)
 
   
 def open_cam_1():
