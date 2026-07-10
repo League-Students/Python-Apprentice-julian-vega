@@ -20,14 +20,15 @@ def move_tina():
 
 def show_animatronics():
     #tina show
-    global cam_num
+  global cam_num
   if(cam_num==tina_path[tina_progress]):
     tina.showturtle()
   else:
     tina.hideturtle()
   
 def open_cam_1():
-    global cam_num
+  global cam_num
+  cam_num = 1
   print("cam 1 open")
   screen.bgcolor(cam_colors[0])
   show_animatronics()
