@@ -14,7 +14,7 @@ cam_colors = ["white", "blue", "red", "black", "green"]
 def move_tina():
     global tina_progress
     tina_progress +=1
-
+    show_ani
     screen.ontimer(move_tina, 2000)
     print("TINA MOVED")
 
