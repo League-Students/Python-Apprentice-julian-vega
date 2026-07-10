@@ -10,6 +10,7 @@ screen.setup(500,500)
  
 cam_colors = ["white", "blue", "red", "black", "green"]
 
+
 def show_animatronics(cam_num):
     #tina show
   if(cam_num==tina_path[tina_progress]):
@@ -36,6 +37,8 @@ def exit_cam():
   print("cam exited")
   screen.bgcolor("yellow")
   
+exit_cam()
+
 screen.listen()
 screen.onkey(open_cam_1, "1")
 screen.onkey(open_cam_2, "2")
