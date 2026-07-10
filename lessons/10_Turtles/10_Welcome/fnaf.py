@@ -21,6 +21,7 @@ def show_animatronics(cam_num):
 def open_cam_1():
   print("cam 1 open")
   screen.bgcolor(cam_colors[0])
+  show_animatronics()
 def open_cam_2():
   print("cam 2 open")
   screen.bgcolor(cam_colors[1]) 
@@ -47,7 +48,5 @@ screen.onkey(open_cam_4, "4")
 screen.onkey(open_cam_5, "5")
 screen.onkey(exit_cam, "0")
   
-
-while True:
     
 turtle.exitonclick()
